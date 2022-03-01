@@ -4,16 +4,14 @@ import ColorfulMessage from "./Components/ColorfulMessage";
 const App = () => {
   // ボタンクリックイベント
   const onClickButton = () => alert();
-  const contentladyStyle = {
-    color: "pink",
-    fontSize: "18px"
-  };
 
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは!</h1>
-      <ColorfulMessage color="bule" message="お元気ですか" />
-      <p style={contentladyStyle}>元気です</p>
+      <ColorfulMessage color="blue" message="お元気ですか" />
+      <ColorfulMessage color="pink" message="元気です" />
+      <ColorfulMessage color="green">タグで渡す</ColorfulMessage>
+
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
