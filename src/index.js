@@ -1,15 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-// App関数(コンポーネント)
-const App = () => {
-  return (
-    <>
-      <h1>こんにちは!</h1>
-      <p>お元気ですか</p>
-    </>
-  );
-};
+import App from "./App";
 
 // retrunの中はひとつのタグにする必要がある
 // error回避　React.Fragment　や　<> </>
