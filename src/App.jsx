@@ -7,7 +7,7 @@ const App = () => {
     color: "blue",
     fontSize: "18px"
   };
-  const contentLedyStyle = {
+  const contentladyStyle = {
     color: "pink",
     fontSize: "18px"
   };
@@ -16,7 +16,7 @@ const App = () => {
     <>
       <h1 style={{ color: "red" }}>こんにちは!</h1>
       <p style={contentStyle}>お元気ですか</p>
-      <p style={contentLedyStyle}>お元気です</p>
+      <p style={contentladyStyle}>元気です</p>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
